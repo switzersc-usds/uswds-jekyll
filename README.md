@@ -34,7 +34,7 @@ After installing dependencies from NPM, `npm install` additionally runs Bundler 
 
 ### Erase demo files
 
-The demo styles in `/assets/stylesheets/demo` and placeholder markup in `index.html` can be erased once the project is running locally.
+The demo styles in `/assets/stylesheets/demo` and placeholder markup in `index.html` can be erased once the project is running locally. If you erase these, be sure to delete the corresponding import line in `assets/stylesheets/application.scss`: `@import "demo/demo";` on l. 75. 
 
 ### Stylesheets
 
